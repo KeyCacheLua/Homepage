@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "KeyMC-1.12.2",
+      "name": "KeyMC (Minecraft 1.12.2)",
+      "description": "KeyMC Running Minecraft 1.12.2",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "mc.keycache.dev",
+      "minecraftVersion": "1.12.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "NTM-Extended-1.12.2-1.9.4-a.jar",
+          "name": "NTM-Extended-1.12.2-1.9.4-a.jar",
+          "type": "File",
+          "artifact": {
+            "size": 92296579,
+            "url": "https://keycache.dev/servers/KeyMC-1.12.2/files/forgemods/required/NTM-Extended-1.12.2-1.9.4-a.jar",
+            "MD5": "9ece4eed951a561dd06b7dcdb8e577db",
+            "path": "forgemods/required/NTM-Extended-1.12.2-1.9.4-a.jar"
+          }
+        }
+      ]
+    }
+  ]
+}
